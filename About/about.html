@@ -2,20 +2,20 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about us</title>
-    <!-- favicon -->
-    <link rel="icon" href="./Img/favicon.png" type="image/svg+xml">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>about us</title>
+  <!-- favicon -->
+  <link rel="icon" href="./Img/favicon.png" type="image/svg+xml">
 
-    <link rel="stylesheet" href="../Css/bootstrap.min.css">
-    <link rel="stylesheet" href="../Css/style.css">
+  <link rel="stylesheet" href="../Css/bootstrap.min.css">
+  <link rel="stylesheet" href="../Css/style.css">
 </head>
 
 <body>
 
-    
-    <!-- navbar -->
+
+  <!-- navbar -->
   <nav class="navbar navbar-expand-lg bg-red shadow-sm">
     <div class="container">
       <a class="navbar-brand fw-bold" href="#"><img src="./Img/logo.png" alt=""></a>
@@ -28,7 +28,7 @@
             <a class="nav-link active fw-semibold" href="../index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-semibold" href="./about.html" >About</a>
+            <a class="nav-link fw-semibold" href="./about.html">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link fw-semibold" href="../Portfolio/portfolio.html">Portfolio</a>
@@ -59,9 +59,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-4 text-center mb-3">
-          <img src="../Img/kib.jpg"
-               class="img-fluid rounded-circle"
-               alt="Profile Image">
+          <img src="../Img/kib.jpg" class="img-fluid rounded-circle" alt="Profile Image">
         </div>
         <div class="col-md-8">
           <h3 class="fw-bold">Personal Biography</h3>
@@ -138,7 +136,7 @@
   </section>
 
 
- <!-- footer part -->
+  <!-- footer part -->
   <section class="py-5">
     <footer class="bg-dark text-light pt-5 pb-4">
       <div class="container">
@@ -146,7 +144,7 @@
           <div class="col-lg-4 col-md-6 mb-4">
             <h5 class="fw-bold mb-3">MyWebsite</h5>
 
-              
+
 
             <p>
               We provide quality training, professional skill development, and tech solutions for students and
@@ -162,7 +160,7 @@
               <li><a href="../Contact/contact.html" class="text-light text-decoration-none">Contact</a></li>
               <li><a href="../About/about.html" class="text-light text-decoration-none">portfolio</a></li>
               <li><a href="../Contact/contact.html" class="text-light text-decoration-none">Service</a></li>
-              
+
             </ul>
           </div>
           <div class="col-lg-3 col-md-6 mb-4">
@@ -185,32 +183,32 @@
     </footer>
   </section>
 
-<script>
+  <script>
 
-function displayLiveTime() {
-    const now = new Date();
-    // Get localized time (e.g., "1:24:52 PM")
-    const timeString = now.toLocaleTimeString(); 
-    // Get localized date (e.g., "Thursday, September 23, 2021")
-    const dateString = now.toLocaleDateString(undefined, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }); 
-    
-    // Combine date and time
-    document.getElementById("clock").textContent = dateString + " " + timeString;
-}
+    function displayLiveTime() {
+      const now = new Date();
+      // Get localized time (e.g., "1:24:52 PM")
+      const timeString = now.toLocaleTimeString();
+      // Get localized date (e.g., "Thursday, September 23, 2021")
+      const dateString = now.toLocaleDateString(undefined, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
 
-// Update the time every second (1000 milliseconds)
-setInterval(displayLiveTime, 1000);
+      // Combine date and time
+      document.getElementById("clock").textContent = dateString + " " + timeString;
+    }
 
-// Call it once immediately to display the time on page load
-displayLiveTime();
+    // Update the time every second (1000 milliseconds)
+    setInterval(displayLiveTime, 1000);
 
-
-
-</script>
+    // Call it once immediately to display the time on page load
+    displayLiveTime();
 
 
-    <script src="../js/bootstrap.bundle.min.js"></script>
-    <script src="../js/script.js"></script>
+
+  </script>
+
+
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/script.js"></script>
 </body>
 
 </html>
