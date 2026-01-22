@@ -13,7 +13,6 @@ document.getElementById("toggleBtn").addEventListener("click", function () {
   }
 });
 
-
 // current time
 function updateTime() {
   const now = new Date();
